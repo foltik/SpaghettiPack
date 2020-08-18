@@ -5,7 +5,7 @@
     "author": "Foltik",
     "contact": "jack@foltz.io",
     "dependencies": [
-        "base >= 1.0.0",
+        "base >= 1.0",
         "angelsbioprocessing >= 0.7.13",
         "angelsindustries >= 0.4.5",
         "angelsinfiniteores >= 0.9.4",
@@ -20,7 +20,6 @@
         "PCPRedux >= 0.18.5",
         "Clowns-Processing >= 1.3.12",
         "Clowns-AngelBob-Nuclear >= 1.1.15",
-        "Clowns-Locale >= 1.1.2",
         "Clowns-Science >= 1.0.25",
         "boblibrary >= 1.0.0",
         "boblogistics >= 1.0.0",
@@ -102,6 +101,6 @@
         "ShinyAngelGFX >= 0.18.4"
     ],
     "description": "This modpack is designed to massively ramp up the complexity of the vanilla game with Bob's mods, Angel's mods, Yuoki Industries, Space Exploration, AAI, Logistics Trains, and more.",
-    "factorio_version": "1.0.0",
+    "factorio_version": "1.0",
     "homepage": ""
 }

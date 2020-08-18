@@ -9,6 +9,7 @@ Date: 8 August 2020
   Remove:
   - AAI Crafting Tab
   - RSO
+  - Clowns Locale
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.13
 Date: 22 August 2019
