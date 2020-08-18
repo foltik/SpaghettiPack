@@ -1,4 +1,19 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 8 August 2020
+  Add:
+  - Pyanodon's mods
+  - Waterfill
+  - inland pumps
+  - The Fat Controller
+  Remove:
+  - AAI Crafting Tab
+  - RSO
+---------------------------------------------------------------------------------------------------
+Version: 0.1.13
+Date: 22 August 2019
+  Added Disco Science
+---------------------------------------------------------------------------------------------------
 Version: 0.1.12
 Date: 22 August 2019
   Add deadlock's crating and mod integration
