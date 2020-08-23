@@ -1,12 +1,36 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 22 August 2020
+  Fix tech and Clown's science recipe icons
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 22 August 2020
+  Make science icons consistent with vanilla and remove Science Pack 0
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 21 August 2020
+  Add back Yuoki's mods
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 19 August 2020
+  Add:
+  - Pyanodon's mods
+  - LTN Combinator Updated
+  - AAI mods
+  - New AAI vehicles
+  - More Petrochem Hell
+  Temporarily Remove:
+  - Yuoki's, due to a bug with the mod causing the pack to break
+---------------------------------------------------------------------------------------------------
 Version: 0.2.0
-Date: 8 August 2020
+Date: 19 August 2020
   Add:
   - Pyanodon's mods
   - Waterfill
   - inland pumps
   - The Fat Controller
   Remove:
+  - LTN Tracker
   - AAI Crafting Tab
   - RSO
   - Clowns Locale
