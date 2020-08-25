@@ -1,4 +1,24 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+Date: 24 August 2020
+  Add:
+  - Angel's Exploration
+  - Artisanal Reskins: Bob's mods
+  - Miniloaders
+  - The Blueprint Designer Lab
+  Remove:
+  - Multi product recipe details
+  - Clown's Science
+  Updated:
+  - FARL
+  - Deadlock's Stacking for Pyanodon's
+
+  Fixes:
+  - Removed bob's furnace uncrafting/converting recipes
+  - Moved science pack recipes to intermediates tab
+  - Removed unused concrete grid item
+  - Made medium electric poles hand craftable
+---------------------------------------------------------------------------------------------------
 Version: 0.3.3
 Date: 22 August 2020
   Fix tech and Clown's science recipe icons
