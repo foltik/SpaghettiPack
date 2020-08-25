@@ -62,7 +62,6 @@
         "yi_engines >= 1.0.45",
         "Factorissimo2 >= 2.4.2",
         "deadlock-beltboxes-loaders >= 2.3.6",
-        "DeadlockCrating >= 1.6.1",
         "deadlock-integrations >= 2.1.3",
         "deadlock-stacking-crating-bobs >= 0.8.1",
         "DeadlocksStackingForPyanadon >= 0.3.4",
