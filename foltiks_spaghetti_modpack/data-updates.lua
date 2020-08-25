@@ -40,6 +40,11 @@ patch.remove_recipes({
     'fluid-furnace-from-fluid-mixing-furnace',
 })
 
+patch.imerge(data.raw.technology['basic-fluid-handling'].effects, {
+    {type = 'unlock-recipe', recipe = 'bob-small-storage-tank'},
+    {type = 'unlock-recipe', recipe = 'bob-small-inline-storage-tank'},
+})
+
 -- Disable yuoki's science alternate crafting
 --[[
 data.raw.technology['yi-science-exchange'] = nil
