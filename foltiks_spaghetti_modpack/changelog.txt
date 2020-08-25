@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.5
+Date: 25 August 2020
+  Add:
+  - Angel's Addons: Storage Options
+  - Angel's Addons: Mass Transit
+  Removed:
+  - Angel's Addons: Ore Silos (Deprecated)
+  - Angel's Addons: Warehouses (Deprecated)
+  - Angel's Addons: Pressure Tanks (Deprecated)
+  - Angel's Addons: Petrochem Train (Deprecated)
+  - Angel's Addons: Smelting Train (Deprecated)
+---------------------------------------------------------------------------------------------------
 Version: 0.3.4
 Date: 24 August 2020
   Add:
