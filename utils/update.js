@@ -1,16 +1,23 @@
 #!/usr/bin/env node
 
 const fs = require('fs');
+const path = require('path');
 const got = require('got');
 
-const file = process.argv[2];
+const mod = process.argv[2];
 
-if (!file) {
-    console.log('Usage: update.js /path/to/info.json');
+if (!mod) {
+    console.log('Usage: update.js /path/to/mod');
     process.exit(1);
 }
 
-const config = JSON.parse(fs.readFileSync(file, 'utf8'));
+const info = path.join(mod, 'info.json');
+if (!fs.existsSync(info)) {
+    console.log('No info.json found in mod directory!');
+    process.exit(1);
+}
+
+const config = JSON.parse(fs.readFileSync(info, 'utf8'));
 
 let mods = config.dependencies.map(d => {
     const [name, version] = d.split(' >= ');
