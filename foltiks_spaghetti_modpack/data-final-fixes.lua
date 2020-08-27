@@ -75,5 +75,8 @@ data.raw.tool['utility-science-pack'].icons = {{icon = '__base__/graphics/icons/
 data.raw.recipe['utility-science-pack'].icons = {{icon = '__base__/graphics/icons/utility-science-pack.png', icon_size = 64}}
 data.raw.technology['utility-science-pack'].icons = {{icon = '__base__/graphics/icons/utility-science-pack.png', icon_size = 64}}
 
+-- Enable belt crafting without tech
+data.raw.recipe['belt'].enabled = true
+
 --data.raw.tool['advanced-logistic-science-pack'].icons = {{icon = '__bobtech__/graphics/icons/logistic-science-pack-technology.png', icon_size = 128}}
 --data.raw.recipe['advanced-logistic-science-pack'].icons = {{icon = '__bobtech__/graphics/icons/logistic-science-pack-technology.png', icon_size = 128}}
