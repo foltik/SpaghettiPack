@@ -1,7 +1,8 @@
 local patch = require('patch')
 
--- Fix for a bug with Pyanodon's Petroleum Handling hotair recipe overrides
+-- Fix for bugs with Pyanodon's Petroleum Handling hotair recipe overrides
 data.raw.recipe['hotair-angels-roll-rubber-casting'].icons = {{icon = '__PCPRedux__/graphics/icons/roll-blank.png', tint = {r = 0, g = 0, b = 0}, icon_size=32}}
+data.raw.recipe['hotair-casting-pipe'] = nil
 
 
 -- Allow medium electric pole hand crafting
