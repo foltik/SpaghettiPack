@@ -1,144 +1,180 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.10
+Date: 25 August 2020
+  Update:
+    - Logistic Train Network
+    - FARL
+    - AAI Industry
+    - AAI Programmable Vehicles
+    - MaxRateCalculator
+
+  Fixes:
+    - Fix possible error with pipe-casting
+    - Fix changelog formatting
+---------------------------------------------------------------------------------------------------
+Version: 0.3.9
+Date: 25 August 2020
+  Add:
+    - Clown's Science
+
+  Fixes:
+    - Re-enable belt crafting
+---------------------------------------------------------------------------------------------------
 Version: 0.3.8
 Date: 25 August 2020
   Fixes:
-  - Added missing small tank recipes to basic fluid handling tech
+    - Added missing small tank recipes to basic fluid handling tech
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.7
 Date: 25 August 2020
-  Updated:
-  - Helmod
+  Update:
+    - Helmod
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.6
 Date: 25 August 2020
   Removed:
-  - Deadlock's Crating
+    - Deadlock's Crating
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.5
 Date: 25 August 2020
   Add:
-  - Angel's Addons: Storage Options
-  - Angel's Addons: Mass Transit
-  Removed:
-  - Angel's Addons: Ore Silos (Deprecated)
-  - Angel's Addons: Warehouses (Deprecated)
-  - Angel's Addons: Pressure Tanks (Deprecated)
-  - Angel's Addons: Petrochem Train (Deprecated)
-  - Angel's Addons: Smelting Train (Deprecated)
+    - Angel's Addons: Storage Options
+    - Angel's Addons: Mass Transit
+    
+  Remove:
+    - Angel's Addons: Ore Silos (Deprecated)
+    - Angel's Addons: Warehouses (Deprecated)
+    - Angel's Addons: Pressure Tanks (Deprecated)
+    - Angel's Addons: Petrochem Train (Deprecated)
+    - Angel's Addons: Smelting Train (Deprecated)
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.4
 Date: 24 August 2020
   Add:
-  - Angel's Exploration
-  - Artisanal Reskins: Bob's mods
-  - Miniloaders
-  - The Blueprint Designer Lab
+    - Angel's Exploration
+    - Artisanal Reskins: Bob's mods
+    - Miniloaders
+    - The Blueprint Designer Lab
+  
   Remove:
-  - Multi product recipe details
-  - Clown's Science
-  Updated:
-  - FARL
-  - Deadlock's Stacking for Pyanodon's
+    - Multi product recipe details
+    - Clown's Science
+    
+  Update:
+    - FARL
+    - Deadlock's Stacking for Pyanodon's
 
   Fixes:
-  - Removed bob's furnace uncrafting/converting recipes
-  - Moved science pack recipes to intermediates tab
-  - Removed unused concrete grid item
-  - Made medium electric poles hand craftable
+    - Removed bob's furnace uncrafting/converting recipes
+    - Moved science pack recipes to intermediates tab
+    - Removed unused concrete grid item
+    - Made medium electric poles hand craftable
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.3
 Date: 22 August 2020
-  Fix tech and Clown's science recipe icons
+  Fixes:
+    - Fix tech and Clown's science recipe icons
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.2
 Date: 22 August 2020
-  Make science icons consistent with vanilla and remove Science Pack 0
+  Fixes:
+    - Make science icons consistent with vanilla and remove Science Pack 0
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.1
 Date: 21 August 2020
-  Add back Yuoki's mods
+  Add:
+    - Yuoki's Mods
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.0
 Date: 19 August 2020
   Add:
-  - Pyanodon's mods
-  - LTN Combinator Updated
-  - AAI mods
-  - New AAI vehicles
-  - More Petrochem Hell
-  Temporarily Remove:
-  - Yuoki's, due to a bug with the mod causing the pack to break
+    - Pyanodon's mods
+    - LTN Combinator Update
+    - AAI mods
+    - New AAI vehicles
+    - More Petrochem Hell
+
+  Remove:
+    - Yuoki's, due to a bug with the mod causing the pack to break
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 19 August 2020
   Add:
-  - Pyanodon's mods
-  - Waterfill
-  - inland pumps
-  - The Fat Controller
+    - Pyanodon's mods
+    - Waterfill
+    - inland pumps
+    - The Fat Controller
+
   Remove:
-  - LTN Tracker
-  - AAI Crafting Tab
-  - RSO
-  - Clowns Locale
+    - LTN Tracker
+    - AAI Crafting Tab
+    - RSO
+    - Clowns Locale
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.13
 Date: 22 August 2019
-  Added Disco Science
+  Add:
+    - Disco Science
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.12
 Date: 22 August 2019
-  Add deadlock's crating and mod integration
+  Add:
+    - Deadlock's crating and mod integration
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.11
 Date: 22 August 2019
-  Add max rate calculator
+  Add:
+    - Max Rate Calculator
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.10
 Date: 22 August 2019
-  Remove All Bob's Furnaces are Multipurpose to fix a crafting bug
+  Remove:
+    - All Bob's Furnaces are Multipurpose to fix a crafting bug
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.9
 Date: 21 August 2019
-  Add far reach
+  Add:
+    - Far Reach
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.8
 Date: 21 August 2019
-  Removed quickstart mod
+  Remove:
+    - Quickstart
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.7
 Date: 21 August 2019
-  Removed space exploration and tweaked optionals
+  Remove:
+    - Space Exploration
+  Fixes:
+    - Tweaked Optionals
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.6
 Date: 21 August 2019
   Add:
-  - Space Exploration Graphics
-  - Space Exploration Postprocess
+    - Space Exploration Graphics
+    - Space Exploration Postprocess
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.5
 Date: 21 August 2019
-  Make Optional:
-  - Angels Infinite Ores
-  - RSO
-  - Bob's Modules
   Add:
-  - Grappling Hook
-  - Space Exploration Hi Res Graphics
-  Add optional quickstart mod 
+    - Grappling Hook
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 21 August 2019
-  Add optional quickstart mod 
+  Add:
+    - Quickstart
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.3
 Date: 21 August 2019
-  Actually fix flow control version
+  Update:
+    - Flow Control
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 21 August 2019
-  Fix flow control version
+  Update:
+    - Flow Control
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 21 August 2019
-  Initial release.
+  Update:
+    - Initial Release
