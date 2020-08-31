@@ -7,7 +7,9 @@ for _, tech in pairs(data.raw.technology) do
    patch.remove(tech.unit.ingredients, function(i) return i[1] == 'science-pack-0' end)
 end
 for _, lab in pairs(data.raw.lab) do
-   patch.remove(lab.inputs, function(i) return i == 'science-pack-0' end)
+   if lab.inputs ~= nil then
+      patch.remove(lab.inputs, function(i) return i == 'science-pack-0' end)
+   end
 end
 
 

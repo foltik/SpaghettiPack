@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.11
+Date: 31 August 2020
+  Fixes:
+    - Fix load error when removing science pack 0 from labs
+
+  Update:
+    - Helmod
+---------------------------------------------------------------------------------------------------
 Version: 0.3.10
 Date: 25 August 2020
   Update:
@@ -40,7 +48,7 @@ Date: 25 August 2020
   Add:
     - Angel's Addons: Storage Options
     - Angel's Addons: Mass Transit
-    
+
   Remove:
     - Angel's Addons: Ore Silos (Deprecated)
     - Angel's Addons: Warehouses (Deprecated)
@@ -55,11 +63,11 @@ Date: 24 August 2020
     - Artisanal Reskins: Bob's mods
     - Miniloaders
     - The Blueprint Designer Lab
-  
+
   Remove:
     - Multi product recipe details
     - Clown's Science
-    
+
   Update:
     - FARL
     - Deadlock's Stacking for Pyanodon's

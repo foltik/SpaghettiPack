@@ -1,6 +1,6 @@
 {
     "name": "foltiks_spaghetti_modpack",
-    "version": "0.3.10",
+    "version": "0.3.11",
     "title": "Foltik's Spaghetti Modpack",
     "author": "Foltik",
     "contact": "jack@foltz.io",
@@ -85,7 +85,7 @@
         "Bottleneck >= 0.11.4",
         "Enhanced_Map_Colors >= 1.5.3",
         "even-distribution >= 0.3.18",
-        "helmod >= 0.11.0",
+        "helmod >= 0.11.1",
         "BlueprintLab_design >= 1.0.1",
         "more-minimap-autohide-017 >= 1.0.1",
         "Tapeline >= 1.1.5",
