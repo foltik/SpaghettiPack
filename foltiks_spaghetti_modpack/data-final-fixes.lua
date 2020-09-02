@@ -79,5 +79,8 @@ data.raw.technology['utility-science-pack'].icons = {{icon = '__base__/graphics/
 -- Enable belt crafting without tech
 data.raw.recipe['belt'].enabled = true
 
+-- Remove water from Ethylene Glycol recipe, allowing it to be crafted properly
+patch.remove(data.raw.recipe['ethylene-glycol'].ingredients, function(i) return i.name== 'water' end)
+
 --data.raw.tool['advanced-logistic-science-pack'].icons = {{icon = '__bobtech__/graphics/icons/logistic-science-pack-technology.png', icon_size = 128}}
 --data.raw.recipe['advanced-logistic-science-pack'].icons = {{icon = '__bobtech__/graphics/icons/logistic-science-pack-technology.png', icon_size = 128}}

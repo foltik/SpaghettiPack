@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.12
+Date: 1 September 2020
+  Fixes:
+    - Add missing Tin-Chromium Alloy recipe
+    - Add missing Titanium Tetrachloride recipe
+    - Remove water from Ethylene Glycol recipe, allowing it to be crafted in a
+      centrifugal pan again
+
+  Update:
+    - Max Rate Calculator
+---------------------------------------------------------------------------------------------------
 Version: 0.3.11
 Date: 31 August 2020
   Fixes:

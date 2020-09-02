@@ -1,6 +1,6 @@
 {
     "name": "foltiks_spaghetti_modpack",
-    "version": "0.3.11",
+    "version": "0.3.12",
     "title": "Foltik's Spaghetti Modpack",
     "author": "Foltik",
     "contact": "jack@foltz.io",
@@ -92,7 +92,7 @@
         "Todo-List >= 18.0.1",
         "YARM >= 0.8.102",
         "far-reach >= 1.0.1",
-        "MaxRateCalculator >= 3.4.43",
+        "MaxRateCalculator >= 3.4.44",
         "DiscoScience >= 1.0.2",
         "Dectorio >= 0.10.9",
         "AsphaltRoads >= 1.2.0",

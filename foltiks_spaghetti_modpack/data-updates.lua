@@ -107,3 +107,46 @@ patch.imerge(data.raw.technology['yi-basic-farming'].effects, {
     'ye_biofuel_recipe'
 })
 --]]
+
+-- Add missing Titanium Tetrachloride recipe
+RECIPE {
+    type = "recipe",
+    name = "ticl4",
+    category = "hpf",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "chlorine", amount = 40},
+        {type = "item", name = "coal-dust", amount = 10},
+        {type = "item", name = "titanium-plate", amount = 3},
+    },
+    results = {
+        {type = "item", name = "ticl4", amount = 4},
+    },
+    main_product = "ticl4",
+    icon = "__pypetroleumhandlinggraphics__/graphics/icons/ticl4.png",
+    icon_size = 32,
+    subgroup = "py-petroleum-handling-recipes",
+    order = "a"
+}:add_unlock("oil-machines-mk01")
+
+-- Add missing Tin-Chromium Alloy recipe
+RECIPE {
+    type = "recipe",
+    name = "sncr-alloy",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "chromium", amount = 3},
+        {type = "item", name = "tin-plate", amount = 4},
+    },
+    results = {
+        {type = "item", name = "sncr-alloy", amount = 2},
+    },
+    main_product = "sncr-alloy",
+    icon = "__pypetroleumhandlinggraphics__/graphics/icons/sncr-alloy.png",
+    icon_size = 32,
+    subgroup = "py-rawores-recipes",
+    order = "a"
+}:add_unlock("oil-sands")
