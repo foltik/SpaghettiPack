@@ -147,6 +147,6 @@ RECIPE {
     main_product = "sncr-alloy",
     icon = "__pypetroleumhandlinggraphics__/graphics/icons/sncr-alloy.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-petroleum-handling-recipes",
     order = "a"
 }:add_unlock("oil-sands")

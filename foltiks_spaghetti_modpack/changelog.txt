@@ -1,4 +1,22 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.13
+Date: 8 September 2020
+  Fixes:
+    - Fixed broken phosphate rock sorting recipe and reduce slag output
+
+  Update:
+    - Angel's Addons: Mass Transit
+    - Big Brother
+    - Logistic Train Network
+    - Factorissimo 2
+    - Deadlock's Stacking for Pyanodon
+    - Helmod
+    - MaxRateCalculator
+    - Artisinal Bob's Reskins
+
+  Remove:
+    - Inland Pumps to fix incompatibility with AAI
+---------------------------------------------------------------------------------------------------
 Version: 0.3.12
 Date: 1 September 2020
   Fixes:
