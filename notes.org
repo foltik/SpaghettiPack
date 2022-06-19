@@ -1,0 +1,93 @@
+* Split into Multiple Mods
+** Patches
+**** Production Chains
+***** Raw Materials
+****** Coal
+- Remove steel processing from coal processing 1, remove steel from
+  building recipes.
+******* Tech Tree
+Merge into =angels-coal-processing-*=
+
+Need =crusher= tech out of so many prereqs, move out effects to start of ore chains
+
+Angels:
+- Remove =solid-coke= recipe
+- Remove =solid-coke-sulfur= ??? maybe add sulfuric waste to py chains
+- Remove =coal-crushed= recipe
+- Disable =coal-cracking= tech ??? figure out what to do with coal cracking recipes, add coal gasification tech tree?
+- Add =coke-pellet= recipe to =angels-coal-processing-2=, change category to =pellet-pressing=
+- Remove chemical science pack from =ore-processing-2=, change costs to 100x
+ 
+*Rework prereqs for tech that has py coal processing techs prereq*
+
+From =coal-processing-1=:
+- Remove =coal-fawogae=
+- Remove =stone-distilation=
+- =lime= to =angels-coal-processing-1=
+- =calcium-carbide= to =angels-coal-processing-2= ??? move to acetylene tech
+- =high-pressure-furnace= for coke to =angels-coal-processing-1=
+
+From =coal-processing-2=
+- Remove =tailings-borax-niobium=
+- Remove =tailings-copper-iron=
+- Move =coal-slurry= ??? somewhere?
+- Move =coal-briquette= ??? somewhere, needs glycerol/creosote for prereq?
+- Move =gasify-coal-dust= somewhere???  takes gasifier
+- Move =active-carbon= to =angels-coal-processing-2=
+- Move =tailings-dust= ??? takes evaporator, tailings liquid
+- Move =wood-to-coal= to =angels-coal-processing-1=
+- Move =coal-dust= to =angels-coal-processing-1=
+
+Get rid of =coal-processing-3= and considate the random stuff elsewhere
+
+******* Coke
+- Replace angels =solid-coke= with py =coke=
+- Move coke processing 1 to prereq of coal processing, remove hot air
+  effects
+******* Carbon
+- Update =carbon-dust= to take =solid-carbon= instead of =coke= ??? more stuff too?
+****** Glass
+***** Petrochem
+****** Syngas
+****** Acetylene
+****** Rubber
+- Change to angels polybudiatane and styrene
+- Remove resin crafting
+* Recipe/Item Categories Rework
+** Old
+*** Logistics
+*** Production
+*** Intermediates
+*** Bob's Materials
+*** Bob's Intermediates
+*** Weaponry
+*** Dectorio
+*** Fluids
+*** Resource Refining
+*** Metallurgy Smelting
+*** Metallurgy Casting
+*** Water Treatment
+*** Petrochemical Refining
+*** Barelling and Fluid Control
+*** Bio Processing Nauvis
+*** Bio Processing Vegetabilis
+*** Bio Processing Animalis
+*** Angel's Components
+*** Angel's Power
+*** Angel's Logistics
+*** Angel's Vehicles
+*** Angel's Exploration
+*** Bob's Logistics
+*** Bob's Gemstones
+*** Modules
+*** Coal Processing
+*** Industry Items
+*** Py Fusion Energy
+*** Py HighTech
+*** Py Petroleum Handling
+*** Yi-Basics, Storage, Defense
+*** Yi-Energy, Lamps, Fuel
+*** Yi-Transmutation & Trade
+*** Yi-Refinery & Fluids
+*** Yi-Engines/Experiments
+*** Yi-Agronomie

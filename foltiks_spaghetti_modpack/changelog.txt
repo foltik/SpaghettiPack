@@ -1,4 +1,48 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.16
+Date: 27 November 2020
+  Fix:
+    - Re-color science packs in research
+    - Re-organize science packs in the automation tab
+---------------------------------------------------------------------------------------------------
+Version: 0.3.15
+Date: 27 November 2020
+  Remove:
+    - ShinyAngelGFX (bug)
+
+  Update:
+    - Angel's Mods
+    - PCPRedux
+    - Clown's Processing
+    - Bob's Inserters & Vehicle Equipment
+    - LTN
+    - FARL
+    - AAI Industry & Signal Transmission
+    - PyMods
+    - Factorissimo2
+    - Deadlock's Mods
+    - Miniloader
+    - QoL Research
+    - Bottleneck
+    - Helmod
+    - Tapeline
+    - MaxRateCalculator
+    - Dectorio
+---------------------------------------------------------------------------------------------------
+Version: 0.3.14
+Date: 21 September 2020
+  Fixes:
+    - Removed missing Kovarex Enrichment Process tech from prerequisites
+    - Removed uncraftable desert garden recipe
+
+  Update:
+    - Logistic Train Network
+    - LTN Content Reader
+    - FARL
+    - Deadlock's Stacking for Pyanodon
+    - Helmod
+    - Artisinal Bob's Reskins
+---------------------------------------------------------------------------------------------------
 Version: 0.3.13
 Date: 8 September 2020
   Fixes:

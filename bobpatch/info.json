@@ -1,0 +1,19 @@
+{
+    "name": "foltiks_patches_bobs",
+    "version": "0.1.0",
+    "title": "Foltik's Paches: Bob's Mods",
+    "author": "Foltik",
+    "contact": "jack@foltz.io",
+    "dependencies": [
+        "base >= 1.0",
+        "patchlib >= 0.1.0",
+        "? bobplates >= 1.0.2",
+        "? bobpower >= 1.0.0",
+        "? bobassembly >= 1.0.0",
+        "? bobtech >= 1.0.0",
+        "? bobelectronics >= 1.0.0"
+    ],
+    "description": "Patches for bob's mods",
+    "factorio_version": "1.0",
+    "homepage": ""
+}

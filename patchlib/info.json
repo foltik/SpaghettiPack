@@ -1,0 +1,13 @@
+{
+    "name": "patchlib",
+    "version": "0.1.0",
+    "title": "Patch Library",
+    "author": "Foltik",
+    "contact": "jack@foltz.io",
+    "dependencies": [
+        "base >= 1.0"
+    ],
+    "description": "A collection of common utilities for patching and reorganizing other mods.",
+    "factorio_version": "1.0",
+    "homepage": ""
+}

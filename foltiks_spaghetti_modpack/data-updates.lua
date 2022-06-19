@@ -1,16 +1,16 @@
 local patch = require('patch')
 
 -- Remove PyCoalTBAA's Science Pack 0
-data.raw.recipe['science-pack-0'] = nil
-data.raw.tool['science-pack-0'] = nil
-for _, tech in pairs(data.raw.technology) do
-   patch.remove(tech.unit.ingredients, function(i) return i[1] == 'science-pack-0' end)
-end
-for _, lab in pairs(data.raw.lab) do
-   if lab.inputs ~= nil then
-      patch.remove(lab.inputs, function(i) return i == 'science-pack-0' end)
-   end
-end
+-- data.raw.recipe['science-pack-0'] = nil
+-- data.raw.tool['science-pack-0'] = nil
+-- for _, tech in pairs(data.raw.technology) do
+--    patch.remove(tech.unit.ingredients, function(i) return i[1] == 'science-pack-0' end)
+-- end
+-- for _, lab in pairs(data.raw.lab) do
+--    if lab.inputs ~= nil then
+--       patch.remove(lab.inputs, function(i) return i == 'science-pack-0' end)
+--    end
+-- end
 
 
 -- Remove unused concrete grid recipe and item

@@ -1,0 +1,16 @@
+{
+    "name": "foltiks_patches_bobangels",
+    "version": "0.1.0",
+    "title": "Foltik's Paches: BobAngel's",
+    "author": "Foltik",
+    "contact": "jack@foltz.io",
+    "dependencies": [
+        "base >= 1.0",
+        "patchlib >= 0.1.0",
+        "foltiks_patches_bobs >= 0.1.0",
+        "? angelsbioprocessing > 0.7.14"
+    ],
+    "description": "Patches for both Bob's and Angel's mods",
+    "factorio_version": "1.0",
+    "homepage": ""
+}

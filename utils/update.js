@@ -33,7 +33,7 @@ let mods = config.dependencies.map(d => {
             const r = await got(`https://mods.factorio.com/api/mods/${m.name}`);
             const body = JSON.parse(r.body);
 
-            const releases = body.releases;
+            const releases = body.releases.filter(r => r.info_json.factorio_version != '1.1');
             const latest = releases[releases.length - 1].version;
 
             m.latest = latest;
@@ -53,7 +53,7 @@ let mods = config.dependencies.map(d => {
 
         console.log('Writing new versions to file...');
         console.log();
-        fs.writeFileSync(file, JSON.stringify(config, null, 4));
+        fs.writeFileSync(info, JSON.stringify(config, null, 4));
 
         console.log('Done!');
     } else {
